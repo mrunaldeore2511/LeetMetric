@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <h1>LeetMetric</h1>
+
+        <!-- User Container -->
+        <div class="userContainer">
+
+            <p>Enter your username here:</p>
+
+            <div class="userInput">
+                <input type="text" placeholder="Enter your username here" id="inputBox">
+                <button id="searchBtn">Search</button>
+            </div>
+
+        </div>
+
+        <!-- Statistics Container -->
+        <div class="statsContainer">
+
+            <!-- Progress Container -->
+            <div class="progressContainer">
+
+                <!-- Progrss Item 1 (Easy)-->
+                <div class="progressItem" >
+                    <div class="easyProgress circle">
+                        <span id="easyLabel"></span>
+                        Easy
+                    </div>
+                </div>
+
+                <!-- Progrss Item 2 (Medium)-->
+                <div class="progressItem">
+                    <div class="mediumProgress circle">
+                        <span id="mediumLabel"></span>
+                        Medium
+                    </div>
+                </div>
+
+                <!-- Progrss Item 3 (Hard)-->
+                <div class="progressItem">
+                    <div class="hardProgress circle">
+                        <span id="hardLabel"></span>
+                        Hard
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Container -->
+        <div class="cardConatainer">
+            <!-- Will directly be populated from the JS code -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

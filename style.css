@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* .color1 {color: #e7beff;}
+.color2 {color: #ffdaff;}
+.color3 {color: #1e1732;}
+.color4 {color: #78767b;}
+.color5 {color: #e2e2e2;} */
+body{
+    background-color: #78767b;
+    color: #1e1732;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color:#e7beff ;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+#inputBox{
+    width: 80%;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+#searchBtn{
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.statsContainer{
+    /* display: none; */
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #299f5d;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background: conic-gradient(
+        #299f5d var(--progress-degree, 0%), 
+        #283a2e 0%
+    );
+    flex-direction: column;
+}
+
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+
+.progressContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cardConatainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.card{
+    background-color: #ffdaff;
+    width: 220px;
+    max-width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card h3{
+    text-align: center;
+}
